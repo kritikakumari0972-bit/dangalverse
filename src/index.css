@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-comic: 'Baloo 2', cursive, sans-serif;
+  --font-arcade: 'Bungee', cursive, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom comic arcade styling */
+.font-comic {
+  font-family: 'Baloo 2', cursive, sans-serif;
+}
+
+.font-arcade {
+  font-family: 'Bungee', cursive, sans-serif;
+}
+
+/* Arcade text stroke effects */
+.text-stroke-sm {
+  -webkit-text-stroke: 1.5px #0a0a14;
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: 2.5px #0a0a14;
+}
+
+.text-stroke-lg {
+  -webkit-text-stroke: 4px #0a0a14;
+}
+
+/* Dynamic comic drop shadows */
+.comic-shadow {
+  box-shadow: 4px 4px 0px #090a12;
+}
+
+.comic-shadow-lg {
+  box-shadow: 6px 6px 0px #090a12;
+}
+
+.comic-shadow-amber {
+  box-shadow: 4px 4px 0px #b45309;
+}
+
+.comic-shadow-red {
+  box-shadow: 4px 4px 0px #991b1b;
+}
+
+.comic-shadow-cyan {
+  box-shadow: 4px 4px 0px #0e7490;
+}
+
+/* Disable selection and touch callouts for fighting game controls */
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input, textarea {
+  -webkit-user-select: auto;
+  user-select: auto;
+}

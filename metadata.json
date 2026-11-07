@@ -1,0 +1,6 @@
+{
+  "name": "Dangalverse - The Great Indian Cartoon Clash",
+  "description": "India's Funniest Cartoon Fighting Universe! An action-packed, comedic 2D arcade fighting game featuring original Indian characters, distinct abilities, vibrant arenas, and hilarious commentary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
